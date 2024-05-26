@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver precios de los asientos en la lista de pasajeros." tests="2" skipped="0" failures="2" errors="0" timestamp="2024-05-26T00:50:38" hostname="PC-Jair" time="3.087">
+  <properties/>
+  <testcase name="Consulta exitosa de precios de asientos asignados a pasajeros." classname="Ver precios de los asientos en la lista de pasajeros." time="1.161">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.com.udea.test.modulogestionasientos.stepdefinitions.VerPreciosListaPasajerosStepDefinition.deboVerEnLaListaDePasajerosLosPreciosDeLosAsientosSeleccionadosEnFormatoCOP(VerPreciosListaPasajerosStepDefinition.java:58)
+	at ✽.debo ver en la lista de pasajeros los precios de los asientos seleccionados en formato COP(file:///home/jair/Escritorio/programacion/endtoend/src/test/resources/features/Ver_precios_de_los_asientos_en_la_lista_de_pasajeros.feature:8)
+</failure>
+  </testcase>
+  <testcase name="uno o mas pasajeros no tienen asientos seleccionados." classname="Ver precios de los asientos en la lista de pasajeros." time="1.926">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.com.udea.test.modulogestionasientos.stepdefinitions.VerPreciosListaPasajerosStepDefinition.deboVerLaListaDePreciosDeAsientosPorCadaPasajeroEnFormatoCOP(VerPreciosListaPasajerosStepDefinition.java:77)
+	at ✽.debo ver la lista de precios de asientos por cada pasajero en formato COP(file:///home/jair/Escritorio/programacion/endtoend/src/test/resources/features/Ver_precios_de_los_asientos_en_la_lista_de_pasajeros.feature:14)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Ver lista actualizada de asientos disponibles durante la selección." tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-24T17:03:41" hostname="PC-Jair" time="2.771">
+<testsuite name="Ver lista actualizada de asientos disponibles durante la selección." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-26T00:50:35" hostname="PC-Jair" time="0.901">
   <properties/>
-  <testcase name="Ver lista actualizada de asientos disponibles." classname="Ver lista actualizada de asientos disponibles durante la selección." time="2.771">
-    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: is &lt;false&gt;
-     but: was &lt;true&gt;
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
-	at co.com.udea.certificacion.autenticacion.stepdefinitions.VerListaAsientosStepDefinition.veoLaListaDeAsientosDisponibles(VerListaAsientosStepDefinition.java:58)
-	at ✽.veo la lista de asientos disponibles(file:///home/jair/Escritorio/programacion/endtoend/src/test/resources/features/ver_lista_actualizada_de_asientos_disponibles.feature:9)
-</failure>
-  </testcase>
+  <testcase name="Ver lista actualizada de asientos disponibles." classname="Ver lista actualizada de asientos disponibles durante la selección." time="0.901"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 24, 2024 12:03:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 123
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

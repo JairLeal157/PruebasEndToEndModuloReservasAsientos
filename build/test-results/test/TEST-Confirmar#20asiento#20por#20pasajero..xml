@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Confirmar asiento por pasajero." tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-26T00:50:22" hostname="PC-Jair" time="12.479">
+  <properties/>
+  <testcase name="Confirmación exitosa de selección de asiento." classname="Confirmar asiento por pasajero." time="12.479">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.com.udea.test.modulogestionasientos.stepdefinitions.ConfirmarAsientoStepDefinition.deboRecibirUnAvisoInformandoQueElAsientoQuedóConfirmado(ConfirmarAsientoStepDefinition.java:45)
+	at ✽.debo recibir un aviso informando que el asiento quedó confirmado(file:///home/jair/Escritorio/programacion/endtoend/src/test/resources/features/Confirmar_asiento_por_pasajero.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 25, 2024 7:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver lista de pasajeros" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-26T00:50:36" hostname="PC-Jair" time="1.876">
+  <properties/>
+  <testcase name="Ver lista de pasajeros con sus asientos asignados" classname="Ver lista de pasajeros" time="0.9"/>
+  <testcase name="Ver lista de pasajeros cuando no hay asientos asignados." classname="Ver lista de pasajeros" time="0.976"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

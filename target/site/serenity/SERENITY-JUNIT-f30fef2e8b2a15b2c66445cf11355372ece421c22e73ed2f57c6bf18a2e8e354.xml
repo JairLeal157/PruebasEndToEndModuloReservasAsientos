@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Confirmar asiento por pasajero." skipped="0" tests="1" time="0.11" timestamp="2024-05-25 07:50:22"><testcase name="Confirmación exitosa de selección de asiento."><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+co.com.udea.test.modulogestionasientos.stepdefinitions.ConfirmarAsientoStepDefinition.deboRecibirUnAvisoInformandoQueElAsientoQuedóConfirmado(ConfirmarAsientoStepDefinition.java:45)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>

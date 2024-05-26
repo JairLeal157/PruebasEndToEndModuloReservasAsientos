@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver precios de los asientos en la seleccion." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-26T00:50:38" hostname="PC-Jair" time="0.862">
+  <properties/>
+  <testcase name="Visualización de precios de asientos disponibles." classname="Ver precios de los asientos en la seleccion." time="0.862"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
